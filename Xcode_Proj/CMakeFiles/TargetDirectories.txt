@@ -1,0 +1,3 @@
+/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj/CMakeFiles/Viola-Jones-Face-Detector.dir
+/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj/CMakeFiles/ALL_BUILD.dir
+/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj/CMakeFiles/ZERO_CHECK.dir

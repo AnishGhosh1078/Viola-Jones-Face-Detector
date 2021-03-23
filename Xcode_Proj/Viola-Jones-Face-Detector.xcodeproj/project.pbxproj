@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5984A7278CDE4FBAA52780AF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2C100A785A8240858AC31DB3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				79F15E66DA9A5584F586B36E /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B2CE3EB0D5DA4B4B9473BEDD /* PBXTargetDependency */,
+				FCFC3CFCFF3E44A49556B2D1 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		749A1366EE62439E8EA867D1 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 45259F4825CF427BB41F4E38 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				758336CB72292DD5DF246F74 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1982A82D3ECF4C3B9E471A78 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 08F1303DCC1C4BCA8F2E2EFE /* /Users/anishghosh/Desktop/Viola Jones Face Detector/CMakeLists.txt */; };
+		53F815025CFC4BCF8511B784 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 1DAF1FB60BEA4C26A6E134B7 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/src/main.cpp */; };
+		D4051EB035CA4AAB8FE225E7 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/include/types.h */ = {isa = PBXBuildFile; fileRef = 3F3DF8148BE44C558CD46C05 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/include/types.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		8924D00BC868404B8B7DE0E6 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A8DD91290A394E578081E4F2 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		A44134F369214EDA91787076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A71878FBA0486DBE3D59CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749A1366EE62439E8EA867D1;
+			remoteInfo = ZERO_CHECK;
+		};
+		B6B1FCA207B84F13B0D06CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A71878FBA0486DBE3D59CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 200CEA7B03E04D2EA0FA91FD;
+			remoteInfo = "Viola-Jones-Face-Detector";
+		};
+		EE328D26DBA143FBBED9971D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A71878FBA0486DBE3D59CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749A1366EE62439E8EA867D1;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F1303DCC1C4BCA8F2E2EFE /* /Users/anishghosh/Desktop/Viola Jones Face Detector/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1DAF1FB60BEA4C26A6E134B7 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		3F3DF8148BE44C558CD46C05 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/include/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = include/types.h; sourceTree = SOURCE_ROOT; };
+		A5143B9CAB6C4A95B0D1F624 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F29CCDED385647CFA3649186 /* Viola-Jones-Face-Detector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "Viola-Jones-Face-Detector"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B197C24B89D54147B76FE9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07436D3ECBAC4567992F7202 /* Viola-Jones-Face-Detector */ = {
+			isa = PBXGroup;
+			children = (
+				539035A26A9B481A8DA892C6 /* Include */,
+				9B5E15876184420385AA3350 /* Source Files */,
+				08F1303DCC1C4BCA8F2E2EFE /* /Users/anishghosh/Desktop/Viola Jones Face Detector/CMakeLists.txt */,
+			);
+			name = "Viola-Jones-Face-Detector";
+			sourceTree = "<group>";
+		};
+		0FCF41A534EA4C9C80AB6198 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4323EC544416FBE70BD71 /* CMake Rules */,
+				A5143B9CAB6C4A95B0D1F624 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		539035A26A9B481A8DA892C6 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DF8148BE44C558CD46C05 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/include/types.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		54C4406E4B2C4A4184F20AB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76E764E9645D46C1A16D5CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29CCDED385647CFA3649186 /* Viola-Jones-Face-Detector */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B5E15876184420385AA3350 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DAF1FB60BEA4C26A6E134B7 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B5E8CDC7479A4A48BFFD6CB4 = {
+			isa = PBXGroup;
+			children = (
+				07436D3ECBAC4567992F7202 /* Viola-Jones-Face-Detector */,
+				0FCF41A534EA4C9C80AB6198 /* ALL_BUILD */,
+				76E764E9645D46C1A16D5CCD /* Products */,
+				54C4406E4B2C4A4184F20AB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E4323EC544416FBE70BD71 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200CEA7B03E04D2EA0FA91FD /* Viola-Jones-Face-Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEF66C0A14D4AD8940798FF /* Build configuration list for PBXNativeTarget "Viola-Jones-Face-Detector" */;
+			buildPhases = (
+				3B581B053260424290DFB088 /* Sources */,
+				B197C24B89D54147B76FE9A9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4DC84313203495894BB5680 /* PBXTargetDependency */,
+			);
+			name = "Viola-Jones-Face-Detector";
+			productName = "Viola-Jones-Face-Detector";
+			productReference = F29CCDED385647CFA3649186 /* Viola-Jones-Face-Detector */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A71878FBA0486DBE3D59CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = B2E1C216EC77493FB5F31C6C /* Build configuration list for PBXProject "Viola-Jones-Face-Detector" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A8DD91290A394E578081E4F2 /* Debug */,
+				8924D00BC868404B8B7DE0E6 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B5E8CDC7479A4A48BFFD6CB4;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				5984A7278CDE4FBAA52780AF /* ALL_BUILD */,
+				200CEA7B03E04D2EA0FA91FD /* Viola-Jones-Face-Detector */,
+				749A1366EE62439E8EA867D1 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		758336CB72292DD5DF246F74 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj\"
+  make -f /Users/anishghosh/Desktop/Viola\\ Jones\\ Face\\ Detector/Xcode_Proj/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj\"
+  make -f /Users/anishghosh/Desktop/Viola\\ Jones\\ Face\\ Detector/Xcode_Proj/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		79F15E66DA9A5584F586B36E /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B581B053260424290DFB088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F815025CFC4BCF8511B784 /* /Users/anishghosh/Desktop/Viola Jones Face Detector/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2CE3EB0D5DA4B4B9473BEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 200CEA7B03E04D2EA0FA91FD /* Viola-Jones-Face-Detector */;
+			targetProxy = B6B1FCA207B84F13B0D06CB0 /* PBXContainerItemProxy */;
+		};
+		B4DC84313203495894BB5680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749A1366EE62439E8EA867D1 /* ZERO_CHECK */;
+			targetProxy = A44134F369214EDA91787076 /* PBXContainerItemProxy */;
+		};
+		FCFC3CFCFF3E44A49556B2D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749A1366EE62439E8EA867D1 /* ZERO_CHECK */;
+			targetProxy = EE328D26DBA143FBBED9971D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1427DA618BFF4C9A95801FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2F888D4CF3D149119A624B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/anishghosh/Desktop/Viola Jones Face Detector/include\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libopencv_highgui.4.5.1.dylib,/usr/local/lib/libopencv_videoio.4.5.1.dylib,/usr/local/lib/libopencv_imgcodecs.4.5.1.dylib,/usr/local/lib/libopencv_imgproc.4.5.1.dylib,/usr/local/lib/libopencv_core.4.5.1.dylib);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Viola-Jones-Face-Detector";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.5.1_2/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7EA8FCFF627D42F0A477D62A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/anishghosh/Desktop/Viola Jones Face Detector/include\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libopencv_highgui.4.5.1.dylib,/usr/local/lib/libopencv_videoio.4.5.1.dylib,/usr/local/lib/libopencv_imgcodecs.4.5.1.dylib,/usr/local/lib/libopencv_imgproc.4.5.1.dylib,/usr/local/lib/libopencv_core.4.5.1.dylib);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Viola-Jones-Face-Detector";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.5.1_2/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		810C5C15367C413E998F2BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8122971EC1934F3ABD965A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9FBCAE996ECD4E5794072655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj/build";
+			};
+			name = Debug;
+		};
+		B7248445211A4941A8DA1F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BEC78686EF30495C85681CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/anishghosh/Desktop/Viola Jones Face Detector/Xcode_Proj/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C100A785A8240858AC31DB3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7248445211A4941A8DA1F30 /* Debug */,
+				8122971EC1934F3ABD965A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45259F4825CF427BB41F4E38 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810C5C15367C413E998F2BEF /* Debug */,
+				1427DA618BFF4C9A95801FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B2E1C216EC77493FB5F31C6C /* Build configuration list for PBXProject "Viola-Jones-Face-Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBCAE996ECD4E5794072655 /* Debug */,
+				BEC78686EF30495C85681CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAEF66C0A14D4AD8940798FF /* Build configuration list for PBXNativeTarget "Viola-Jones-Face-Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F888D4CF3D149119A624B81 /* Debug */,
+				7EA8FCFF627D42F0A477D62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A71878FBA0486DBE3D59CC /* Project object */;
+}
